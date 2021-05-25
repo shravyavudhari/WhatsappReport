@@ -1,17 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="43442" started-at="2021-05-25T16:42:10 IST" finished-at="2021-05-25T16:42:53 IST">
+  <suite name="Suite" duration-ms="193071" started-at="2021-05-25T17:55:25 IST" finished-at="2021-05-25T17:58:39 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="43442" started-at="2021-05-25T16:42:10 IST" finished-at="2021-05-25T16:42:53 IST">
-      <class name="com.weather.report.LiveScore">
-        <test-method status="PASS" signature="sendLiveScore()[pri:0, instance:com.weather.report.LiveScore@1786dec2]" name="sendLiveScore" duration-ms="43381" started-at="2021-05-25T16:42:10 IST" finished-at="2021-05-25T16:42:53 IST">
+    <test name="Test" duration-ms="193071" started-at="2021-05-25T17:55:25 IST" finished-at="2021-05-25T17:58:39 IST">
+      <class name="com.whatsapp.report.AccuLocationWeather">
+        <test-method status="PASS" signature="searchByLocation()[pri:0, instance:com.whatsapp.report.AccuLocationWeather@2638011]" name="searchByLocation" duration-ms="62194" started-at="2021-05-25T17:56:07 IST" finished-at="2021-05-25T17:57:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchByLocation -->
+      </class> <!-- com.whatsapp.report.AccuLocationWeather -->
+      <class name="com.whatsapp.report.AccuWeatherReport">
+        <test-method status="PASS" signature="accuWeather()[pri:0, instance:com.whatsapp.report.AccuWeatherReport@6ff29830]" name="accuWeather" duration-ms="28253" started-at="2021-05-25T17:57:10 IST" finished-at="2021-05-25T17:57:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accuWeather -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.whatsapp.report.AccuWeatherReport@6ff29830]" name="tearDown" is-config="true" duration-ms="983" started-at="2021-05-25T17:57:38 IST" finished-at="2021-05-25T17:57:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="sendWhatsappMessage()[pri:0, instance:com.whatsapp.report.AccuWeatherReport@6ff29830]" name="sendWhatsappMessage" duration-ms="58652" started-at="2021-05-25T17:57:39 IST" finished-at="2021-05-25T17:58:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendWhatsappMessage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.whatsapp.report.AccuWeatherReport@6ff29830]" name="tearDown" is-config="true" duration-ms="994" started-at="2021-05-25T17:58:38 IST" finished-at="2021-05-25T17:58:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.whatsapp.report.AccuWeatherReport -->
+      <class name="com.whatsapp.report.LiveScore">
+        <test-method status="PASS" signature="sendLiveScore()[pri:0, instance:com.whatsapp.report.LiveScore@68267da0]" name="sendLiveScore" duration-ms="41938" started-at="2021-05-25T17:55:25 IST" finished-at="2021-05-25T17:56:07 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sendLiveScore -->
-      </class> <!-- com.weather.report.LiveScore -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- com.whatsapp.report.LiveScore -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

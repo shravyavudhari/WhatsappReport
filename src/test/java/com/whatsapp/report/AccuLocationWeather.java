@@ -1,4 +1,4 @@
-package com.weather.report;
+package com.whatsapp.report;
 
 import java.awt.AWTException;
 import java.awt.Robot;
