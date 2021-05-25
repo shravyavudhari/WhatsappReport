@@ -1,29 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="70509" started-at="2021-05-24T21:12:17 IST" finished-at="2021-05-24T21:13:27 IST">
+  <suite name="Default suite" duration-ms="50915" started-at="2021-05-25T15:37:42 IST" finished-at="2021-05-25T15:38:33 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="70509" started-at="2021-05-24T21:12:17 IST" finished-at="2021-05-24T21:13:27 IST">
-      <class name="com.weather.report.AccuWeatherReport">
-        <test-method status="PASS" signature="accuWeather()[pri:0, instance:com.weather.report.AccuWeatherReport@15ca7889]" name="accuWeather" duration-ms="9512" started-at="2021-05-24T21:12:17 IST" finished-at="2021-05-24T21:12:26 IST">
+    <test name="Default test" duration-ms="50915" started-at="2021-05-25T15:37:42 IST" finished-at="2021-05-25T15:38:33 IST">
+      <class name="com.weather.report.AccuWeatherLocation">
+        <test-method status="PASS" signature="searchByLocation()[pri:0, instance:com.weather.report.AccuWeatherLocation@1786dec2]" name="searchByLocation" duration-ms="50862" started-at="2021-05-25T15:37:42 IST" finished-at="2021-05-25T15:38:33 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- accuWeather -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.weather.report.AccuWeatherReport@15ca7889]" name="tearDown" is-config="true" duration-ms="1036" started-at="2021-05-24T21:12:26 IST" finished-at="2021-05-24T21:12:28 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="sendWhatsappMessage()[pri:0, instance:com.weather.report.AccuWeatherReport@15ca7889]" name="sendWhatsappMessage" duration-ms="58986" started-at="2021-05-24T21:12:28 IST" finished-at="2021-05-24T21:13:27 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- sendWhatsappMessage -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.weather.report.AccuWeatherReport@15ca7889]" name="tearDown" is-config="true" duration-ms="925" started-at="2021-05-24T21:13:27 IST" finished-at="2021-05-24T21:13:27 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.weather.report.AccuWeatherReport -->
+        </test-method> <!-- searchByLocation -->
+      </class> <!-- com.weather.report.AccuWeatherLocation -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
